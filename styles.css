@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    padding-top: 25px;
+    
+}
+
+.outside-box {
+    min-width: 450px;
+    max-width: 98%;
+    background-color: rgb(224, 218, 218);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 3px;
+    padding-bottom: 40px;
+}
+
+
+h1 {
+    font-size: 3.3em;
+    letter-spacing: 0.05em;
+}
+#image {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+#img-div {
+    
+    width: 395px;
+    height: 490px;
+    border-radius: 2px;
+    margin: auto;
+    border: 5px groove rgb(158, 141, 141);
+}
+
+#img-caption {
+
+    padding: 7px;
+    float: left;
+}
+
+
+#about {
+    margin-top: 60px;
+    margin-left: 20px;
+    font-size: 2em;
+
+}
+
+#tribute-info {
+    color: rgb(122, 122, 122);
+    font-size: 1em;
+}
+
+
+.box {
+    min-width: 300px;
+    max-width: 90%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: auto;
+    padding: 5px;
+    
+}
+
+a:link {
+    border-bottom: pink;
+  }
+
+a:visited {
+    color: black;
+  }
+
+a:hover {
+    color: rgb(253, 182, 182);
+}
+
+a:active {
+    color: black;
+  }
+
